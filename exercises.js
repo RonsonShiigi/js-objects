@@ -96,9 +96,16 @@ console.log(plainBox);
 
     console.log the object
 */
-var stockCar {
-    
-}
+var stockCar=  {
+    model: 'ford',
+    year: 2015,
+    automaticTransmission: false,
+    driver: null,
+    passengers: []
+};
+console.log(stockCar);
+
+
 
 
 /*
@@ -117,6 +124,21 @@ var stockCar {
    the return value in a variable named `completePerson`. Use `console.log` three times to print the entire object, just 
    the value at `name`, and just the value at `age`.
  */
+var plainPerson ={};
+var completePerson={};
+function buildPerson(person,nameString,age){
+plainPerson.name = nameString;
+plainPerson.age = age;
+return completePerson = person;
+
+
+
+}
+
+buildPerson(plainPerson,'Ronny',28);
+console.log(completePerson);
+console.log(completePerson.name);
+console.log(completePerson.age);
 
 
 /*
