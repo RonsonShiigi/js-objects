@@ -96,6 +96,9 @@ console.log(plainBox);
 
     console.log the object
 */
+var stockCar {
+    
+}
 
 
 /*
