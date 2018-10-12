@@ -320,6 +320,18 @@ printObj(testObj);
         plainBoxResult and use `console.log` to inspect your results.
  */
 
+function putInPlainBox(obj){
+for(var i=0; i < 10 ; i++){
+var randomNumber = Math.floor(Math.random()*10);
+obj.contents.push(randomNumber)
+
+}
+return obj
+
+}
+var plainBoxResult = putInPlainBox(plainBox);
+console.log(plainBoxResult);
+
 
 /*
 11. Detecting transmission
