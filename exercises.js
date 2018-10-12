@@ -367,8 +367,16 @@ else{
      Invoke your function and pass in your objects, store the result to a variable named stockCarWithDriver, and inspect 
       your results. Consider using `plainPerson` as your driver.
  */
+var stockCarWithDriver ={};
+ function addDriver(obj,person){
+
+    stockCar.driver = plainPerson
+    return stockCarWithDriver = stockCar
+ }
 
 
+ addDriver(stockCar,plainPerson);
+ console.log(stockCarWithDriver);
 
 
 /*
